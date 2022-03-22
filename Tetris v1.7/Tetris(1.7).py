@@ -1205,7 +1205,7 @@ def main():
     SFX = pygame.mixer.Sound(os.path.join("Assets" , "Music and SFX", "go.wav"))
     if SFX_Settings==1:
         SFX.play()
-    BGM_End_Screen = pygame.mixer.Sound(os.path.join("Assets" , "Music and SFX", "endth.wav"))
+    BGM_End_Screen = pygame.mixer.Sound(os.path.join("Assets" , "Music and SFX", "endth.ogg"))
     
     if Music_Settings!=0:
         BGM_End_Screen.play(loops=-1)
