@@ -529,9 +529,9 @@ def main():
         if randint(0, 1) == 0:
             BGM_Game_Playing = pygame.mixer.Sound(os.path.join("Assets", "Music and SFX", "main-bgm.ogg"))
         else:
-            BGM_Game_Playing = pygame.mixer.Sound(os.path.join("Assets", "Music and SFX", "main-bgm2.wav"))
+            BGM_Game_Playing = pygame.mixer.Sound(os.path.join("Assets", "Music and SFX", "main-bgm2.ogg"))
     elif Music_Settings==1:
-        BGM_Game_Playing = pygame.mixer.Sound(os.path.join("Assets", "Music and SFX", "main-bgm2.wav"))
+        BGM_Game_Playing = pygame.mixer.Sound(os.path.join("Assets", "Music and SFX", "main-bgm2.ogg"))
     elif Music_Settings==2:
         BGM_Game_Playing = pygame.mixer.Sound(os.path.join("Assets", "Music and SFX", "main-bgm.ogg"))
     i=0
