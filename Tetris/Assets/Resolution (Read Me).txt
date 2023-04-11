@@ -1,0 +1,26 @@
+Custom Resolution:
+1920
+1080
+
+Default Choice is Auto
+To change resolution, hold shift on the Main Menu and Press:
+
+16:9
+1 - 1280 x 720
+2 - 1920 x 1080
+3 - 2560 x 1440
+
+16:10
+4 - 1280 x 800
+5 - 1920 x 1200
+6 - 2560 x 1600
+
+21:9
+7 - 1280 x 720
+8 - 1920 x 1080
+9 - 2560 x 1440
+
+0 - Custom
+Alt + A - Auto
+
+Feel Free to change Custom Resolution
