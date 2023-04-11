@@ -1,5 +1,4 @@
-# Tetris-v1.7
+#A Tetris Clone
 Just a personal project
-Gifs/Images/Music used is NOT MY PROPERTY
-Gifs from user https://1041uuu.tumblr.com/
+Videos/Music/Images used are NOT MY PROPERTY
 Music from Undertale, Tetris, Tetris99 and Genshin Impact
