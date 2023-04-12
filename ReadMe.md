@@ -3,7 +3,7 @@
 [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/) 
 ### A Tetris Clone I have worked on as a personal project
 
-## How to get:
+## How to Get
 - Download 'Source code.zip' from the latest release page.
 - Unzip in a suitable folder.
 - In the 'Tetris' folder, run Tetris.exe or open Tetris.py.
