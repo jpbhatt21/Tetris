@@ -26,7 +26,7 @@
 ### Game Over / End Screen
 <img src="https://github.com/Jatan-Bhatt-21/Tetris/blob/Tetris-U/Tetris/Demo/End%20Screen.png">
 
-# Videos/Music/Images used are NOT MY PROPERTY
-# Music from Undertale, Tetris, Tetris99 and Genshin Impact
+### Videos/Music/Images used are NOT MY PROPERTY
+### Music from Undertale, Tetris, Tetris99 and Genshin Impact
 
-# Happy Gaming!
+### Happy Gaming!
