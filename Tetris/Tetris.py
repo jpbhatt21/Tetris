@@ -1957,21 +1957,21 @@ def main():
 
             if Current_Shape_Randomizer == 1:
 
-                if Rotaion_Status == 0 and Current_Shape[0] < 10:
+                if Rotaion_Status == 0 and Current_Shape[0] < 10 and Block_Grid_Color_Boolean[(Current_Shape[0] + 10)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] + 10)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] + 10)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] + 10)] == 0:
 
                     Current_Shape[0] += 10
                     Current_Shape[1] += 10
                     Current_Shape[2] += 10
                     Current_Shape[3] += 10
 
-                if Rotaion_Status == 1 and Current_Shape[0] % 10 == 9 and Current_Shape[2] % 10 == 9:
+                if Rotaion_Status == 1 and Current_Shape[0] % 10 == 9 and Current_Shape[2] % 10 == 9  and Block_Grid_Color_Boolean[(Current_Shape[0] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] -1)] == 0:
 
                     Current_Shape[0] -= 1
                     Current_Shape[1] -= 1
                     Current_Shape[2] -= 1
                     Current_Shape[3] -= 1
 
-                if Rotaion_Status == 1 and Current_Shape[0] % 10 == 0 and Current_Shape[2] % 10 == 0:
+                if Rotaion_Status == 1 and Current_Shape[0] % 10 == 0 and Current_Shape[2] % 10 == 0 and Block_Grid_Color_Boolean[(Current_Shape[0] +2)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] +2)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] +2)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] +2)] == 0:
 
                     Current_Shape[0] += 2
                     Current_Shape[1] += 2
@@ -1998,21 +1998,21 @@ def main():
 
             if Current_Shape_Randomizer == 3:
 
-                if Rotaion_Status == 0 and Current_Shape[1] < 10:
+                if Rotaion_Status == 0 and Current_Shape[1] < 10 and Block_Grid_Color_Boolean[(Current_Shape[0] + 10)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] + 10)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] + 10)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] + 10)] == 0:
 
                     Current_Shape[0] += 10
                     Current_Shape[1] += 10
                     Current_Shape[2] += 10
                     Current_Shape[3] += 10
 
-                if Rotaion_Status == 1 and Current_Shape[0] % 10 == 9 and Current_Shape[2] % 10 == 9:
+                if Rotaion_Status == 1 and Current_Shape[0] % 10 == 9 and Current_Shape[2] % 10 == 9 and Block_Grid_Color_Boolean[(Current_Shape[0] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] -1)] == 0:
 
                     Current_Shape[0] -= 1
                     Current_Shape[1] -= 1
                     Current_Shape[2] -= 1
                     Current_Shape[3] -= 1
 
-                if Rotaion_Status == 3 and Current_Shape[0] % 10 == 0 and Current_Shape[2] % 10 == 0:
+                if Rotaion_Status == 3 and Current_Shape[0] % 10 == 0 and Current_Shape[2] % 10 == 0  and Block_Grid_Color_Boolean[(Current_Shape[0] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] +1)] == 0:
 
                     Current_Shape[0] += 1
                     Current_Shape[1] += 1
@@ -2049,14 +2049,14 @@ def main():
 
             if Current_Shape_Randomizer == 4:
 
-                if Rotaion_Status == 3 and Current_Shape[1] % 10 == 9 and Current_Shape[3] % 10 == 9:
+                if Rotaion_Status == 3 and Current_Shape[1] % 10 == 9 and Current_Shape[3] % 10 == 9  and Block_Grid_Color_Boolean[(Current_Shape[0] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] -1)] == 0:
 
                     Current_Shape[0] -= 1
                     Current_Shape[1] -= 1
                     Current_Shape[2] -= 1
                     Current_Shape[3] -= 1
 
-                if Rotaion_Status == 1 and Current_Shape[1] % 10 == 0 and Current_Shape[3] % 10 == 0:
+                if Rotaion_Status == 1 and Current_Shape[1] % 10 == 0 and Current_Shape[3] % 10 == 0 and Block_Grid_Color_Boolean[(Current_Shape[0] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] +1)] == 0:
 
                     Current_Shape[0] += 1
                     Current_Shape[1] += 1
@@ -2093,14 +2093,14 @@ def main():
 
             if Current_Shape_Randomizer == 5:
 
-                if Rotaion_Status == 3 and Current_Shape[1] % 10 == 9 and Current_Shape[3] % 10 == 9:
+                if Rotaion_Status == 3 and Current_Shape[1] % 10 == 9 and Current_Shape[3] % 10 == 9 and Block_Grid_Color_Boolean[(Current_Shape[0] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] -1)] == 0:
 
                     Current_Shape[0] -= 1
                     Current_Shape[1] -= 1
                     Current_Shape[2] -= 1
                     Current_Shape[3] -= 1
 
-                if Rotaion_Status == 1 and Current_Shape[1] % 10 == 0 and Current_Shape[3] % 10 == 0:
+                if Rotaion_Status == 1 and Current_Shape[1] % 10 == 0 and Current_Shape[3] % 10 == 0 and Block_Grid_Color_Boolean[(Current_Shape[0] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] +1)] == 0:
 
                     Current_Shape[0] += 1
                     Current_Shape[1] += 1
@@ -2136,7 +2136,7 @@ def main():
 
             if Current_Shape_Randomizer == 6:
 
-                if Rotaion_Status == 1 and Current_Shape[1] % 10 == 9 and Current_Shape[1] % 10 == 9:
+                if Rotaion_Status == 1 and Current_Shape[1] % 10 == 9 and Current_Shape[1] % 10 == 9 and Block_Grid_Color_Boolean[(Current_Shape[0] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] -1)] == 0:
 
                     Current_Shape[0] -= 1
                     Current_Shape[1] -= 1
@@ -2159,14 +2159,14 @@ def main():
 
             if Current_Shape_Randomizer == 7:
 
-                if Rotaion_Status == 0 and Current_Shape[1] < 10:
+                if Rotaion_Status == 0 and Current_Shape[1] < 10 and Block_Grid_Color_Boolean[(Current_Shape[0] + 10)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] + 10)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] + 10)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] + 10)] == 0:
 
                     Current_Shape[0] += 10
                     Current_Shape[1] += 10
                     Current_Shape[2] += 10
                     Current_Shape[3] += 10
 
-                if Rotaion_Status == 1 and Current_Shape[1] % 10 == 0 and Current_Shape[1] % 10 == 0:
+                if Rotaion_Status == 1 and Current_Shape[1] % 10 == 0 and Current_Shape[1] % 10 == 0 and Block_Grid_Color_Boolean[(Current_Shape[0] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] +1)] == 0:
 
                     Current_Shape[0] += 1
                     Current_Shape[1] += 1
@@ -2197,21 +2197,21 @@ def main():
 
             if Current_Shape_Randomizer == 1:
 
-                if Rotaion_Status == 0 and Current_Shape[0] < 10:
+                if Rotaion_Status == 0 and Current_Shape[0] < 10 and Block_Grid_Color_Boolean[(Current_Shape[0] + 10)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] + 10)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] + 10)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] + 10)] == 0:
 
                     Current_Shape[0] += 10
                     Current_Shape[1] += 10
                     Current_Shape[2] += 10
                     Current_Shape[3] += 10
 
-                if Rotaion_Status == 1 and Current_Shape[0] % 10 == 9 and Current_Shape[2] % 10 == 9:
+                if Rotaion_Status == 1 and Current_Shape[0] % 10 == 9 and Current_Shape[2] % 10 == 9 and Block_Grid_Color_Boolean[(Current_Shape[0] -2)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] -2)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] -2)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] -2)] == 0:
 
                     Current_Shape[0] -= 2
                     Current_Shape[1] -= 2
                     Current_Shape[2] -= 2
                     Current_Shape[3] -= 2
 
-                if Rotaion_Status == 1 and Current_Shape[0] % 10 == 0 and Current_Shape[2] % 10 == 0:
+                if Rotaion_Status == 1 and Current_Shape[0] % 10 == 0 and Current_Shape[2] % 10 == 0 and Block_Grid_Color_Boolean[(Current_Shape[0] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] +1)] == 0:
 
                     Current_Shape[0] += 1
                     Current_Shape[1] += 1
@@ -2237,21 +2237,21 @@ def main():
 
             if Current_Shape_Randomizer == 3:
 
-                if Rotaion_Status == 0 and Current_Shape[1] < 10:
+                if Rotaion_Status == 0 and Current_Shape[1] < 10 and Block_Grid_Color_Boolean[(Current_Shape[0] + 10)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] + 10)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] + 10)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] + 10)] == 0:
 
                     Current_Shape[0] += 10
                     Current_Shape[1] += 10
                     Current_Shape[2] += 10
                     Current_Shape[3] += 10
 
-                if Rotaion_Status == 1 and Current_Shape[0] % 10 == 9 and Current_Shape[2] % 10 == 9:
+                if Rotaion_Status == 1 and Current_Shape[0] % 10 == 9 and Current_Shape[2] % 10 == 9 and Block_Grid_Color_Boolean[(Current_Shape[0] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] -1)] == 0:
 
                     Current_Shape[0] -= 1
                     Current_Shape[1] -= 1
                     Current_Shape[2] -= 1
                     Current_Shape[3] -= 1
 
-                if Rotaion_Status == 3 and Current_Shape[0] % 10 == 0 and Current_Shape[2] % 10 == 0:
+                if Rotaion_Status == 3 and Current_Shape[0] % 10 == 0 and Current_Shape[2] % 10 == 0 and Block_Grid_Color_Boolean[(Current_Shape[0] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] +1)] == 0:
 
                     Current_Shape[0] += 1
                     Current_Shape[1] += 1
@@ -2288,15 +2288,14 @@ def main():
 
             if Current_Shape_Randomizer == 4:
 
-                if Rotaion_Status == 3 and Current_Shape[1] % 10 == 9 and Current_Shape[3] % 10 == 9:
+                if Rotaion_Status == 3 and Current_Shape[1] % 10 == 9 and Current_Shape[3] % 10 == 9 and Block_Grid_Color_Boolean[(Current_Shape[0] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] -1)] == 0:
 
                     Current_Shape[0] -= 1
                     Current_Shape[1] -= 1
                     Current_Shape[2] -= 1
                     Current_Shape[3] -= 1
 
-                if Rotaion_Status == 1 and Current_Shape[1] % 10 == 0 and Current_Shape[3] % 10 == 0:
-
+                if Rotaion_Status == 1 and Current_Shape[1] % 10 == 0 and Current_Shape[3] % 10 == 0 and Block_Grid_Color_Boolean[(Current_Shape[0] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] +1)] == 0:
                     Current_Shape[0] += 1
                     Current_Shape[1] += 1
                     Current_Shape[2] += 1
@@ -2332,14 +2331,14 @@ def main():
 
             if Current_Shape_Randomizer == 5:
 
-                if Rotaion_Status == 3 and Current_Shape[1] % 10 == 9 and Current_Shape[3] % 10 == 9:
+                if Rotaion_Status == 3 and Current_Shape[1] % 10 == 9 and Current_Shape[3] % 10 == 9 and Block_Grid_Color_Boolean[(Current_Shape[0] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] -1)] == 0:
 
                     Current_Shape[0] -= 1
                     Current_Shape[1] -= 1
                     Current_Shape[2] -= 1
                     Current_Shape[3] -= 1
 
-                if Rotaion_Status == 1 and Current_Shape[1] % 10 == 0 and Current_Shape[3] % 10 == 0:
+                if Rotaion_Status == 1 and Current_Shape[1] % 10 == 0 and Current_Shape[3] % 10 == 0 and Block_Grid_Color_Boolean[(Current_Shape[0] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] +1)] == 0:
 
                     Current_Shape[0] += 1
                     Current_Shape[1] += 1
@@ -2376,7 +2375,7 @@ def main():
 
             if Current_Shape_Randomizer == 6:
 
-                if Rotaion_Status == 1 and Current_Shape[1] % 10 == 9 and Current_Shape[1] % 10 == 9:
+                if Rotaion_Status == 1 and Current_Shape[1] % 10 == 9 and Current_Shape[1] % 10 == 9 and Block_Grid_Color_Boolean[(Current_Shape[0] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] -1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] -1)] == 0:
 
                     Current_Shape[0] -= 1
                     Current_Shape[1] -= 1
@@ -2399,14 +2398,14 @@ def main():
 
             if Current_Shape_Randomizer == 7:
 
-                if Rotaion_Status == 0 and Current_Shape[1] < 10:
+                if Rotaion_Status == 0 and Current_Shape[1] < 10 and Block_Grid_Color_Boolean[(Current_Shape[0] + 10)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] + 10)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] + 10)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] + 10)] == 0:
 
                     Current_Shape[0] += 10
                     Current_Shape[1] += 10
                     Current_Shape[2] += 10
                     Current_Shape[3] += 10
 
-                if Rotaion_Status == 1 and Current_Shape[1] % 10 == 0 and Current_Shape[1] % 10 == 0:
+                if Rotaion_Status == 1 and Current_Shape[1] % 10 == 0 and Current_Shape[1] % 10 == 0 and Block_Grid_Color_Boolean[(Current_Shape[0] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[1] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[2] +1)] == 0 and Block_Grid_Color_Boolean[(Current_Shape[3] +1)] == 0:
 
                     Current_Shape[0] += 1
                     Current_Shape[1] += 1
